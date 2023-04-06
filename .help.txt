@@ -1,0 +1,16 @@
+Comandos adicionais da terminal
+===============================
+
+	ip		-		Para mostrar seu IP Interno e Externo
+	start		-		Para iniciar exploits
+	run		-		Para rodar os expoits
+	exploit		-		Versão alternada do run
+
+Comandos do start
+=================
+
+	seeker		-		Mostra a localização em tempo real da sua vítima
+	pyphisher	-		Para tentativas de Phishing
+	toolsig		-		Para monitoração de instagram
+	tracer		-		Para traçar um IP
+
