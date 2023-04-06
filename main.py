@@ -6,6 +6,7 @@ import requests as rq
 import socket
 import os
 #____________________________ [ && ]
+run("clear",shell=True)
 dir = os.path.dirname(os.path.abspath(__file__))
 banner = dir + "/files/banner/b.txt"
 with open(banner,"r") as line:
