@@ -5,6 +5,7 @@ Comandos adicionais da terminal
 	start		-		Para iniciar exploits
 	run		-		Para rodar os expoits
 	exploit		-		Versão alternada do run
+	chat		-		Para abrir o chat na terminal
 
 Comandos do start
 =================

@@ -31,6 +31,36 @@ while not lt:
             print("\033[1;34m[*]\033[0m\tIp Externo: %s"%(ip_ext))
         except:
             print("\033[1;31m[-]\033[0m\tNão foi possivel buscar seu Ip Externo!!")
+    elif cmd == "chat":
+        lt = True
+        print("\033[1;34m[*]\033[0m\texec: %s\n"%(cmd))
+        slp(0.5)
+        user = input("\033[1;34m[*]\033[0m\tUser: ")
+        host = input("\033[1;34m[*]\033[0m\tHost: ")
+        port = int(input("\033[1;34m[*]\033[0m\tPort: "))
+        client = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+        try:
+            client.connect((host,port))
+            client.send(user.encode())
+            print("\033[1;34m[*]\033[0m\tConectado!!\n")
+            def send(client):
+                while True:
+                    data = (f"{user} : "+input(""))
+                    client.send(data.encode())
+            def recive(client):
+                while True:
+                    try:
+                        data = client.recv(1024).decode()
+                        print(data)
+                    except:
+                        client.close()
+                        break
+            thread1 = Thread(target=send,args=(client,))
+            thread1.start()
+            thread2 = Thread(target=recive,args=(client,))
+            thread2.start()
+        except:
+            print("\033[1;31m[-]\033[0m\tNão conectado!")
     elif cmd == "help":
         print("\033[1;34m[*]\033[0m\texec: %s\n"%(cmd))
         slp(0.5)
