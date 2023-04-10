@@ -10,11 +10,15 @@
 
 ## Python
 
-```apt-get update -y && apt-get upgrade -y && apt-get install python3 -y```
+```
+apt-get update -y && apt-get upgrade -y && apt-get install python3 -y
+```
 
 ## Nodejs
 
-```apt-get update -y && apt-get upgrade -y && apt-get install nodejs -y```
+```
+apt-get update -y && apt-get upgrade -y && apt-get install nodejs -y
+```
 
 ### [✓] Setup
 
