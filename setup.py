@@ -26,3 +26,4 @@ os.chdir(dir)
 print("*"*88,"\n\033[1;34m[*]\033[0m\tBaixando pacotes do python...")
 run("python3 -m pip install requests",shell=True)
 print("*"*88,"\n\033[1;34m[*]\033[0m\tUse: python3 main.py")
+
