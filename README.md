@@ -32,4 +32,10 @@ apt-get install git -y && git clone https://github.com/Gokuzinn/Tools-H4X && cd 
 
 ### Créditos
 
-***Gokuzinn = DreeXShiryu1***
+```bibtex
+@Gokuzinn={
+    authors = "Gokuzinn, HackerJackMan"
+    version = "v1.4",
+    description = "Use com proveito!!"
+}
+```
