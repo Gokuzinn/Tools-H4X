@@ -11,6 +11,7 @@ Comandos do start
 =================
 
 	seeker		-		Mostra a localização em tempo real da sua vítima
+	slowloris	-		Para abrir o DDoS
 	pyphisher	-		Para tentativas de Phishing
 	toolsig		-		Para monitoração de instagram
 	tracer		-		Para traçar um IP

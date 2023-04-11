@@ -12,12 +12,16 @@ run("figlet -c -t 'Tools-H4X' >> b.txt",shell=True)
 print("*"*88,"\n\033[1;34m[*]\033[0m\tBaixando exploits...")
 os.chdir(dir+"/files/commands")
 run("apt-get install git -y",shell=True)
-links = ["https://github.com/thewhiteh4t/seeker","https://github.com/KasRoudra/PyPhisher","https://github.com/ZheHacK/ToolsIG"]
+links = ["https://github.com/thewhiteh4t/seeker","https://github.com/KasRoudra/PyPhisher","https://github.com/ZheHacK/ToolsIG","https://github.com/gkbrk/slowloris"]
 for i in links:
     run("git clone %s"%(i),shell=True)
 if "seeker" in os.listdir():
     os.chdir(dir+"/files/commands/seeker")
     run("bash install.sh",shell=True)
+    os.chdir(dir+"/files/commands")
+elif "slowloris" in os.listdir():
+    os.chdir(dir+"/files/commands/slowloris")
+    run("python setup.py",shell=True)
 os.chdir(dir+"/files/commands")
 run("apt-get install nodejs -y",shell=True)
 os.chdir(dir+"/files/commands/ToolsIG")

@@ -78,6 +78,16 @@ while not lt:
                 run("python seeker.py",shell=True)
             else:
                 pass
+        elif cmds == "slowloris":
+            exc = input("\033[1;4;37m\x54\x6f\x6f\x6c\x73\033[0m exploit(\033[1;31m%s/%s\033[0m) > "%(cmd,cmds))
+            if exc == "run" or exc == "exploit":
+                os.chdir(dir+"/files/commands/slowloris")
+                ip = input("\033[1;34m[+]\033[0m\tIP: ")
+                port = int(input("\033[1;34m[+]\033[0m\tPort: "))
+                sockets = int(input("\033[1;34m[+]\033[0m\tSockets: "))
+                run("python slowloris.py %s -p %s -s %s -v"%(ip,port,sockets),shell=True)
+            else:
+                pass
         elif cmds == "pyphisher":
             exc = input("\033[1;4;37m\x54\x6f\x6f\x6c\x73\033[0m exploit(\033[1;31m%s/%s\033[0m) > "%(cmd,cmds))
             if exc == "run" or exc == "exploit":
