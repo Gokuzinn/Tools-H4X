@@ -24,7 +24,7 @@ apt-get update -y && apt-get upgrade -y && apt-get install nodejs -y
 
 ### [✓] Setup
 
-## How to install
+#### How to install
 
 ```
 apt-get install git -y && git clone https://github.com/Gokuzinn/Tools-H4X && cd Tools-H4X && python3 setup.py
