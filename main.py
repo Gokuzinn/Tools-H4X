@@ -1,4 +1,4 @@
-#____________________________ [ && ] [v1.3]
+#____________________________ [ && ] [v1.4]
 from time import sleep as slp
 from subprocess import *
 from threading import *
