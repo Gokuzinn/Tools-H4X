@@ -33,9 +33,12 @@ apt-get install git -y && git clone https://github.com/Gokuzinn/Tools-H4X && cd 
 ### Créditos
 
 ```bibtex
-@Gokuzinn={
-    authors = "Gokuzinn, HackerJackMan"
+@article{GokuzinnToolsH4X,
+    title = "Tools-H4X",
+    authors = "Gokuzinn, HackerJackMan",
+    journal = "github.com",
     version = "v1.4",
+    url = "https://github.com/Gokuzinn/Tools-H4X",
     description = "Use com proveito!!"
 }
 ```
