@@ -1,6 +1,6 @@
 # Tools-H4X
 
-### Versão ```v1.3```
+### Versão ```v1.4```
 
 ### [✓] Descrição
 
