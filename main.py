@@ -12,7 +12,7 @@ banner = dir + "/files/banner/b.txt"
 with open(banner,"r") as line:
     for i in line:
         print(i,end="")
-        slp(0.5)
+        slp(0.3)
 #____________________________ [ && ]
 lt = False
 while not lt:
@@ -68,7 +68,7 @@ while not lt:
         with open(".help.txt","r") as line:
             for i in line:
                 print(i,end="")
-                slp(0.5)
+                slp(0.2)
     elif cmd == "start":
         cmds = input("\033[1;4;37m\x54\x6f\x6f\x6c\x73\033[0m exploit(\033[1;31m%s\033[0m) > "%(cmd))
         if cmds == "seeker":
