@@ -1,6 +1,6 @@
 # Tools-H4X
 
-### Versão ```v1.4```
+### Versão ```v1.5```
 
 ### [✓] Descrição
 
@@ -37,7 +37,7 @@ apt-get install git -y && git clone https://github.com/Gokuzinn/Tools-H4X && cd 
     title = "Tools-H4X",
     authors = "DreeXShiryu1, HackerJackMan",
     journal = "github.com",
-    version = "v1.4",
+    version = "v1.5",
     url = "https://github.com/Gokuzinn/Tools-H4X",
     description = "Use com proveito!!"
 }

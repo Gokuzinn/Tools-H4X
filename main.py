@@ -1,4 +1,4 @@
-#____________________________ [ && ] [v1.4]
+#____________________________ [ && ] [v1.5]
 from time import sleep as slp
 from subprocess import *
 from threading import *
@@ -74,6 +74,8 @@ while not lt:
         if cmds == "seeker":
             exc = input("\033[1;4;37m\x54\x6f\x6f\x6c\x73\033[0m exploit(\033[1;31m%s/%s\033[0m) > "%(cmd,cmds))
             if exc == "run" or exc == "exploit":
+                print("\033[1;34m[*]\033[0m\texec: %s\n"%(exc))
+                slp(0.2)
                 os.chdir(dir+"/files/commands/seeker")
                 run("python seeker.py",shell=True)
             else:
@@ -81,6 +83,8 @@ while not lt:
         elif cmds == "slowloris":
             exc = input("\033[1;4;37m\x54\x6f\x6f\x6c\x73\033[0m exploit(\033[1;31m%s/%s\033[0m) > "%(cmd,cmds))
             if exc == "run" or exc == "exploit":
+                print("\033[1;34m[*]\033[0m\texec: %s\n"%(exc))
+                slp(0.2)
                 os.chdir(dir+"/files/commands/slowloris")
                 ip = input("\033[1;34m[+]\033[0m\tIP: ")
                 port = int(input("\033[1;34m[+]\033[0m\tPort: "))
@@ -91,6 +95,8 @@ while not lt:
         elif cmds == "pyphisher":
             exc = input("\033[1;4;37m\x54\x6f\x6f\x6c\x73\033[0m exploit(\033[1;31m%s/%s\033[0m) > "%(cmd,cmds))
             if exc == "run" or exc == "exploit":
+                print("\033[1;34m[*]\033[0m\texec: %s\n"%(exc))
+                slp(0.2)
                 os.chdir(dir+"/files/commands/PyPhisher")
                 run("python pyphisher.py",shell=True)
             else:
@@ -98,6 +104,8 @@ while not lt:
         elif cmds == "toolsig":
             exc = input("\033[1;4;37m\x54\x6f\x6f\x6c\x73\033[0m exploit(\033[1;31m%s/%s\033[0m) > "%(cmd,cmds))
             if exc == "run" or exc == "exploit":
+                print("\033[1;34m[*]\033[0m\texec: %s\n"%(exc))
+                slp(0.2)
                 os.chdir(dir+"/files/commands/ToolsIG")
                 run("node index.js",shell=True)
             else:
@@ -105,6 +113,8 @@ while not lt:
         elif cmds == "tracer":
             exc = input("\033[1;4;37m\x54\x6f\x6f\x7c\x73\033[0m exploit(\033[1;31m%s/%s\033[0m) > "%(cmd,cmds))
             if exc == "run" or exc == "exploit":
+                print("\033[1;34m[*]\033[0m\texec: %s\n"%(exc))
+                slp(0.2)
                 ip = input("\033[1;34m[*]\033[0m\tDigite o endereço IP: ")
                 try:
                     with rq.session() as s:
