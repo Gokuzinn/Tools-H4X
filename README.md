@@ -1,6 +1,10 @@
 # Tools-H4X
 
-### Versão ```v1.5```
+---
+<p align="center">
+    <img src="https://img.shields.io/badge/Version-1.5-brightgreen">
+</p>
+---
 
 ### [✓] Descrição
 
