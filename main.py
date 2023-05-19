@@ -1,4 +1,4 @@
-#____________________________ [ && ] [v2.2]
+#____________________________ [ && ] [v2.3]
 from time import sleep as slp
 from subprocess import *
 from threading import *
@@ -77,7 +77,7 @@ while not lt:
                 print("\033[1;34m[*]\033[0m\texec: %s\n"%(exc))
                 slp(0.2)
                 os.chdir(dir+"/files/commands/seeker")
-                run("python seeker.py",shell=True)
+                run("python3 seeker.py",shell=True)
             else:
                 pass
         elif cmds == "slowloris":
@@ -89,7 +89,7 @@ while not lt:
                 ip = input("\033[1;34m[+]\033[0m\tIP: ")
                 port = int(input("\033[1;34m[+]\033[0m\tPort: "))
                 sockets = int(input("\033[1;34m[+]\033[0m\tSockets: "))
-                run("python slowloris.py %s -p %s -s %s -v"%(ip,port,sockets),shell=True)
+                run("python3 slowloris.py %s -p %s -s %s -v"%(ip,port,sockets),shell=True)
             else:
                 pass
         elif cmds == "pyphisher":
@@ -98,7 +98,7 @@ while not lt:
                 print("\033[1;34m[*]\033[0m\texec: %s\n"%(exc))
                 slp(0.2)
                 os.chdir(dir+"/files/commands/PyPhisher")
-                run("python pyphisher.py",shell=True)
+                run("python3 pyphisher.py",shell=True)
             else:
                 pass
         elif cmds == "toolsig":
