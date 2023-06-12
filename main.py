@@ -1,4 +1,4 @@
-#____________________________ [ && ] [v2.4]
+#____________________________ [ && ] [v2.5]
 from time import sleep as slp
 from subprocess import *
 from threading import *
@@ -138,7 +138,10 @@ while not lt:
         else:
             print("\033[1;34m[*]\033[0m\texec: %s\n"%(cmd))
             slp(0.5)
-            run(cmd,shell=True)
+            if cmd == "ls":
+                run(cmd+" --color=auto",shell=True)
+            else:
+                run(cmd,shell=True)
             os.chdir(dir+"/files/logs")
             if "logs.txt" in os.listdir():
                 with open("logs.txt","a") as log:

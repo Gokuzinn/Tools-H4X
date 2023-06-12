@@ -3,7 +3,7 @@
 ---
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Version-2.4-brightgreen">
+    <img src="https://img.shields.io/badge/Version-2.5-brightgreen">
 </p>
 <p align="center">
     Tools-H4X
@@ -46,7 +46,7 @@ apt-get install git -y && git clone https://github.com/Gokuzinn/Tools-H4X && cd 
     title = "Tools-H4X",
     authors = "DreeXShiryu1, HackerJackMan",
     journal = "github.com",
-    version = "v2.4",
+    version = "v2.5",
     url = "https://github.com/Gokuzinn/Tools-H4X",
     description = "Use com proveito!!"
 }
